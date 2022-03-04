@@ -17,7 +17,7 @@ void write_bytes(int value) {
     fclose(fp);
 }
 
-void doThreePass() {
+void do_three_pass() {
     clock_t t;
     t = clock();
 
@@ -36,7 +36,7 @@ void doThreePass() {
 
 int main() {
     srand(time(NULL));
-    doThreePass();
+    do_three_pass();
 
     return 0;
 }
